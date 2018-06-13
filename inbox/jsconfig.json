@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs"
+    },
+    
+    "exclude": [
+      "node_modules"
+    ],
+
+    "typeAcquisition": {
+        "include": [
+            "ganache-cli",
+            "mocha",
+            "solc",
+            "web3"
+        ]
+    }
+}
